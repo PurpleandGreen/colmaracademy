@@ -1,10 +1,117 @@
 /* Universal Styles */
 
-/* Header */
+html {
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+  color: #212121;
+}
 
-/* Navigation */
+body {
+  display: flex;
+  background-color: white;
+  width: 1200px;
+  padding: 0 0;
+  margin: 0 0;
+}
+
+/* Header */
+#headercontainer{
+  display: flex;
+  align-items: center;
+  align-content: center;
+  height: 64px;
+  width: 1200px;
+  margin-top: 4px;
+  margin-right: 24px;
+  margin-left: 24px;
+}
+
+#headercontainer .headerlogo{
+  height: 4rem;
+  width: 4rem;
+}
+
+img {
+  height: 4rem;
+  width: 4rem;
+}
+
+#headercontainer .colmar {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+#headercontainer .academy {
+  font-size: 2rem;
+  opacity: .5;
+  flex-grow: 1;
+}
+
+#headernavigation {
+  display: flex;
+  width: auto;
+  padding-right: 0.5rem;
+}
+
+#headernavigation li {
+  display: inline;
+}
+
+#headernavigation li a{
+  color: #212121;
+  text-decoration: none;
+  margin-left: 1rem;
+}
 
 /* Learn Section */
+
+#learnsection {
+  display: flex;
+  flex-direction: row;
+  position: absolute;
+  margin-top: 64px;
+  background-color: lightgray;
+  height:35rem;
+  width: 1200px;
+}
+
+#learnsection .bannerimage {
+  width: 60%;
+  margin: 32px 24px;
+}
+
+#learnsection .bannerimage img {
+  display: block;
+  height: 100%;
+  width: 100%;
+}
+
+#learnsection .learnsomething {
+  position: relative;
+  height: 12%;
+  width: auto;
+  margin-top: 10rem;
+}
+
+#learnsection .learnsomething h1{
+  font-weight: bold;
+  font-size: 2.5rem;
+}
+
+#learnsection .learnsomething h3 {
+  margin-top: 1rem;
+  margin-bottom: 1.5rem;
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+#learnsection .learnsomething span {
+  color: white;
+  background-color: #212121;
+  height: 32px;
+  width: 347.94px;
+  text-align: center;
+}
 
 /* Practice Section */
 
