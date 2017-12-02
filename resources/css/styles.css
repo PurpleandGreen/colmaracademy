@@ -158,6 +158,10 @@ img {
   opacity: 0.5;
 }
 
+#practicesection .hurt span {
+    font-weight: bold;
+}
+
 #practicesection .info {
   display: flex;
   margin-top: 32px;
@@ -188,27 +192,78 @@ img {
 
 #practicesection .info .infolinks .date {
   display: block;
+  position: relative;
   height: 26.75%;
   width: 100%;
-  margin-bottom: 16px;
+  margin-bottom: 32px;
 }
 
 #practicesection .info .infolinks .campus {
   display: block;
+  position: relative;
   height: 26.75%;
   width: 100%;
   margin-top: 16px;
-  margin-bottom: 16px;
+  margin-bottom: 32px;
 }
 
 #practicesection .info .infolinks .guestlectures {
   display: block;
+  position: relative;
   height: 26.75%;
   width: 100%;
   margin-top: 16px;
   margin-bottom: 16px;
 }
 
+#practicesection .info .infolinks .date h3 {
+  font-weight: 600;
+  padding-top: 1.75rem;
+  padding-bottom: 1rem;
+}
+
+#practicesection .info .infolinks .campus h3 {
+  font-weight: 600;
+  padding-top: 1.75rem;
+  padding-bottom: 1rem;
+}
+
+#practicesection .info .infolinks .guestlectures h3 {
+  font-weight: 600;
+  padding-top: 1.5rem;
+  padding-bottom: 1rem;
+}
+
+#practicesection .info .infolinks .date p {
+  font-size: 0.75rem;
+  padding-bottom: 1rem;
+}
+
+#practicesection .info .infolinks .campus p {
+  font-size: 0.75rem;
+  padding-bottom: 1rem;
+}
+
+#practicesection .info .infolinks .guestlectures p {
+  font-size: 0.75rem;
+  padding-bottom: 1rem;
+  line-height: 1rem;
+}
+
+#practicesection .info .infolinks .date a {
+  font-size: 0.75rem;
+  text-decoration: none;
+}
+
+#practicesection .info .infolinks .campus a {
+  font-size: 0.75rem;
+  text-decoration: none;
+}
+
+#practicesection .info .infolinks .guestlectures a {
+  font-size: 0.75rem;
+  text-decoration: none;
+}
 /* Courses Section */
 
 /* Thesis Section */
