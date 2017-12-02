@@ -71,7 +71,6 @@ img {
   position: absolute;
   margin-top: 63px;
   background-color: lightgray;
-  height:35rem;
   width: 1200px;
 }
 
@@ -120,8 +119,43 @@ img {
   text-align: center;
 }
 
-
 /* Practice Section */
+
+#practicesection {
+  display: flex;
+  flex-direction: row;
+  position: absolute;
+  background-color: white;
+  margin-top: 40rem;
+  height: 35rem;
+  width: 1200px;
+}
+
+#practicesection .practiceimage {
+  width: 58%;
+  height: 68%;
+}
+
+#practicesection .practiceimage img {
+  display: block;
+  height: 100%;
+  width: 100%;
+  margin: 32px 24px;
+}
+
+#practicesection .hurt {
+  margin-left: 24px;
+}
+
+#practicesection .hurt h1 {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 24px;
+}
+
+#practicesection .hurt p {
+  margin-bottom: 2rem;
+}
 
 /* Courses Section */
 
