@@ -69,7 +69,7 @@ img {
   display: flex;
   flex-direction: row;
   position: absolute;
-  margin-top: 64px;
+  margin-top: 63px;
   background-color: lightgray;
   height:35rem;
   width: 1200px;
@@ -87,9 +87,9 @@ img {
 }
 
 #learnsection .learnsomething {
-  position: relative;
+  position: inline-flex;
   height: 12%;
-  width: auto;
+  width: 40%;
   margin-top: 10rem;
 }
 
@@ -105,13 +105,21 @@ img {
   font-size: 1.5rem;
 }
 
-#learnsection .learnsomething span {
-  color: white;
+#learnsection .startherebutton {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   background-color: #212121;
+  opacity: 0.85;
   height: 32px;
-  width: 347.94px;
+  width: 347px;
+}
+
+#learnsection .startherebutton span {
+  color: white;
   text-align: center;
 }
+
 
 /* Practice Section */
 
