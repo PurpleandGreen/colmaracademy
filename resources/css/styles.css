@@ -266,6 +266,221 @@ img {
 }
 /* Courses Section */
 
+#courses {
+  display: flex;
+  position: absolute;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 40rem;
+  height: 50rem;
+  width: 1200px;
+  background-color: lightgray;
+}
+
+#courses h1 {
+  display: block;
+  font-size: 2rem;
+  font-weight: bold;
+  height: 2rem;
+  width: 100%;
+  text-align: center;
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
+
+#courses .software {
+  background-color: white;
+  height: 35%;
+  width: 20%;
+  margin-left: 72px;
+  margin-right: 32px;
+  padding-top: 0px;
+}
+
+#courses .software img {
+  height: auto;
+  width: 100%;
+  margin-bottom: 1rem;
+}
+
+#courses .software h3 {
+  font-weight: 600;
+  margin-left: 16px;
+  padding-bottom: 8px;
+}
+
+#courses .software h4 {
+  font-size: .75rem;
+  margin-left: 16px;
+  padding-bottom: 8px;
+}
+
+#courses .software p {
+  font-size: .75rem;
+  margin-left: 16px;
+  line-height: 150%;
+}
+
+#courses .computerart {
+  background-color: white;
+  height: 35%;
+  width: 20%;
+  margin-right: 32px;
+  padding-top: 0px;
+}
+
+#courses .computerart img {
+  height: auto;
+  width: 100%;
+  margin-bottom: 1rem;
+}
+
+#courses .computerart h3 {
+  font-weight: 600;
+  margin-left: 16px;
+  padding-bottom: 8px;
+}
+
+#courses .computerart h4 {
+  font-size: .75rem;
+  margin-left: 16px;
+  padding-bottom: 8px;
+}
+
+#courses .computerart p {
+  font-size: .75rem;
+  margin-left: 16px;
+  line-height: 150%;
+}
+
+#courses .design {
+  background-color: white;
+  height: 35%;
+  width: 20%;
+  margin-right: 72px;
+  padding-top: 0px;
+}
+
+#courses .design img {
+  height: auto;
+  width: 100%;
+  margin-bottom: 1rem;
+}
+
+#courses .design h3 {
+  font-weight: 600;
+  margin-left: 16px;
+  padding-bottom: 8px;
+}
+
+#courses .design h4 {
+  font-size: .75rem;
+  margin-left: 16px;
+  padding-bottom: 8px;
+}
+
+#courses .design p {
+  font-size: .75rem;
+  margin-left: 16px;
+  line-height: 150%;
+}
+
+#courses .data {
+  background-color: white;
+  height: 35%;
+  width: 20%;
+  margin-left: 72px;
+  margin-right: 32px;
+  padding-top: 0px;
+}
+
+#courses .data img {
+  height: auto;
+  width: 100%;
+  margin-bottom: 1rem;
+}
+
+#courses .data h3 {
+  font-weight: 600;
+  margin-left: 16px;
+  padding-bottom: 8px;
+}
+
+#courses .data h4 {
+  font-size: .75rem;
+  margin-left: 16px;
+  padding-bottom: 8px;
+}
+
+#courses .data p {
+  font-size: .75rem;
+  margin-left: 16px;
+  line-height: 150%;
+}
+
+#courses .business {
+  background-color: white;
+  height: 35%;
+  width: 20%;
+  margin-right: 32px;
+  padding-top: 0px;
+}
+
+#courses .business img {
+  height: auto;
+  width: 100%;
+  margin-bottom: 1rem;
+}
+
+#courses .business h3 {
+  font-weight: 600;
+  margin-left: 16px;
+  padding-bottom: 8px;
+}
+
+#courses .business h4 {
+  font-size: .75rem;
+  margin-left: 16px;
+  padding-bottom: 8px;
+}
+
+#courses .business p {
+  font-size: .75rem;
+  margin-left: 16px;
+  line-height: 150%;
+}
+
+#courses .marketing {
+  background-color: white;
+  height: 35%;
+  width: 20%;
+  margin-right: 72px;
+  padding-top: 0px;
+}
+
+#courses .marketing img {
+  height: auto;
+  width: 100%;
+  margin-bottom: 1rem;
+}
+
+#courses .marketing h3 {
+  font-weight: 600;
+  margin-left: 16px;
+  padding-bottom: 8px;
+}
+
+#courses .marketing h4 {
+  font-size: .75rem;
+  margin-left: 16px;
+  padding-bottom: 8px;
+}
+
+#courses .marketing p {
+  font-size: .75rem;
+  margin-left: 16px;
+  line-height: 150%;
+}
 /* Thesis Section */
 
 /* Footer */
