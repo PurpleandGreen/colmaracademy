@@ -15,6 +15,7 @@ body {
 }
 
 /* Header */
+
 #headercontainer{
   display: flex;
   align-items: center;
@@ -312,7 +313,7 @@ img {
   background-color: white;
   height: 40%;
   width: 25%;
-  margin-left: 72px; 
+  margin-left: 72px;
   margin-right: 32px;
   padding-top: 0px;
 }
@@ -507,4 +508,30 @@ opacity: 0.5;
   color: #212121;
   text-decoration: none;
   margin-left: 1rem;
+}
+
+/* Media Queries for header content */
+
+
+@media only screen and (min-width: 480px) {
+ #headercontainer #mobilenavigation {
+   visibility:hidden;
+   align-content: center;
+ }
+ #headercontainer #headernavigation {
+   visibility: visible;
+ }
+
+}
+
+@media only screen and (max-width: 480px) {
+ #headercontainer #mobilenavigation {
+   height: 64px;
+   visibility: visible;
+   align-content: center;
+ }
+ #headercontainer #headernavigation {
+   display: none;
+ }
+
 }
