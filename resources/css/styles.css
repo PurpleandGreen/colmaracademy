@@ -132,10 +132,12 @@ img {
 #learnsection .startherebutton:hover {
   background-color: red;
   box-shadow: 0 20x 4ox rgba(0, 0, 0, .5);
+  transition: background-color 200ms ease-in;
 }
 
 #learnsection .startherebutton:active {
   background-color: green;
+  transition: background-color 0s linear;
 }
 
 /* Practice Section */
@@ -710,6 +712,17 @@ opacity: 0.5;
      height: 56px;
      width: 400px;
      margin: 4px 16px;
+   }
+
+   #coursesmobile h3:hover {
+     background-color: red;
+     box-shadow: 0 20x 4ox rgba(0, 0, 0, .5);
+     transition: background-color 200ms ease-in;
+   }
+
+   #coursesmobile h3:active {
+     background-color: green;
+     transition: background-color 0s linear;
    }
 
    #thesissection {
