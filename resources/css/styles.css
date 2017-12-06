@@ -543,7 +543,7 @@ opacity: 0.5;
   }
 }
 
-/* Media Queries start here*/
+/* Media Queries for all sections start here*/
 
 @media only screen and (max-width: 480px) {
    #headercontainer .headerlogo, .colmar, .academy, nav {
