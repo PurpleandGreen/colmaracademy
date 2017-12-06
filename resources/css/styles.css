@@ -551,6 +551,8 @@ opacity: 0.5;
     #headernavigation {
       align-items: center;
       justify-content: space-between;
+      height: 64px;
+      width: 440px;
     }
 
    #headercontainer #headernavigation a img{
@@ -712,7 +714,7 @@ opacity: 0.5;
 
    #thesissection {
      display: flex;
-     margin-top: 2292px;
+     margin-top: 2350px;
      height:550px;
    }
 
@@ -726,13 +728,16 @@ opacity: 0.5;
     font-weight: bold;
     height: 56px;
     width: 400px;
-    margin: 16px 0px 16px 16px;
+    margin: 0px 16px 0px 16px;
     text-align: center;
     align-items: center;
+    padding-bottom: 16px;
   }
 
-
   #thesissection .reimaginevideo {
+    display: block;
+    position: absolute;
+    margin-top: 36px;
     width: 35%;
     height: 50%%;
   }
@@ -741,6 +746,11 @@ opacity: 0.5;
     display: none;
   }
 
+  #footercontainer {
+    display: flex;
+    margin-top: 350px;
+    align-items: flex-start;
+  }
 
 }
 
