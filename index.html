@@ -2,17 +2,17 @@
 <html>
 
   <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta charset="utf-8">
     <link href="./resources/css/reset.css" type="text/css" rel="stylesheet">
     <link href="./resources/css/styles.css" type="text/css" rel="stylesheet">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Colmar Academy</title>
   </head>
 
   <body>
 
     <!--Header-->
-
+    <!--logo area on the left only-->
       <div id="headercontainer">
 
         <div class="headerlogo">
@@ -27,15 +27,16 @@
           <span>ACADEMY</span>
         </div>
 
-        <!-- mobile navigation display only-->
-      <div id="mobilenavigation">
-        <img src="./resources/images/ic-logo.svg">
-        <img src="./resources/images/ic-on-campus.svg">
-        <img src="./resources/images/ic-online.svg">
-        <img src="./resources/images/ic-login.svg">
-      </div>
-        <!--desktop navigation display only-->
+<!--navigation area on the right only-->
       <div id="headernavigation">
+        <!-- mobile navigation display only-->
+
+        <a href="#logo"><img src="./resources/images/ic-logo.svg"></a>
+        <a href="#campus"><img src="./resources/images/ic-on-campus.svg"></a>
+        <a href="#online"><img src="./resources/images/ic-online.svg"></a>
+        <a href="#login"><img src="./resources/images/ic-login.svg"></a>
+        <!--desktop navigation display only-->
+
         <nav>
           <ul>
             <li><a href="#oncampus">On Campus</a></li>
@@ -59,7 +60,7 @@
           <h1>Learn something <br> new every day</h1>
       <h3>Lorem ipsum dolor sit amet,<br>consectetur adipiscing elit.</h3>
         <div class="startherebutton">
-          <span class="action">Start here</span>
+          <span class="action"><a href="#start">Start here</a></span>
         </div>
       </div>
 
@@ -80,12 +81,31 @@
       </div>
 
     <div class="info">
-
+<!--images for desktop-->
         <div class="infoimages">
           <img src="./resources/images/information-orientation.jpg" alt="birds-eye view of students walking across Colmar Academy's campus">
           <img src="./resources/images/information-campus.jpg" alt="study hall of Colmar Academy">
           <img src="./resources/images/information-guest-lecture.jpg" alt="guest lecture by Oliver Sack at Colmar Academy">
+          </div>
+<!--images for mobile-->
+
+        <div class="mobileimages">
+          <img src="./resources/images/information-orientation-mobile.jpg" alt="birds-eye view of students walking across Colmar Academy's campus">
+          <h3>Orientation date</h3>
+          <p>Tue 10/11 & Wed 10/12: 8am-3pm</p>
+          <a href="#readmore">Read more</a>
+          <img src="./resources/images/information-campus-mobile.jpg" alt="study hall of Colmar Academy">
+          <h3>Our campus</h3>
+          <p>Find which campus is close to you</p>
+          <a href="#readmore">Read more</a>
+          <img src="./resources/images/information-guest-lecture-mobile.jpg" alt="guest lecture by Oliver Sack at Colmar Academy">
+          <h3>Special guest lecture</h3>
+          <p>Join a keynote with Oliver Sack<br>about music in medical treatment</p>
+          <a href="#readmore">Read more</a>
         </div>
+
+<!--infolink for desktop-->
+
 
         <div class="infolinks">
           <div class="date">
@@ -155,6 +175,19 @@
           </div>
         </div>
       </div>
+
+<!--courses section for mobile view-->
+
+      <div id="coursesmobile">
+        <h1>Start Learning</h1>
+        <h3>Software Engineering</h3>
+        <h3>Computer Art</h3>
+        <h3>Design</h3>
+        <h3>Data</h3>
+        <h3>Business</h3>
+        <h3>Marketing</h3>
+      </div>
+
 
     <!--Thesis Section-->
 
