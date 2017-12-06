@@ -681,25 +681,39 @@ opacity: 0.5;
      position: absolute;
      flex-direction: column;
      margin-top: 1785px;
+     margin-bottom: 32px;
      visibility: visible;
-     height: 480px;
+     height: 536px;
      width: 480px;
    }
 
    #coursesmobile h1{
+     display: block;
      font-size: 1.5rem;
      font-weight: bold;
-     margin-top: 32px;
-     margin-bottom: 12px
+     height: 56px;
+     width: 400px;
+     margin: 32px 0px 16px 16px;
+     text-align: center;
+     align-items: center;
    }
 
    #coursesmobile h3 {
+     display: block;
      align-items: center;
      font-size: 1.25rem;
      font-weight: bold;
+     padding: 16px 0px 24px 16px;
      background-color: lightgray;
      height: 56px;
+     width: 400px;
      margin: 4px 16px;
+   }
+
+   #thesissection {
+     display: flex;
+     margin-top: 2292px;
+     height:550px;
    }
 
    .reimaginetext {
@@ -707,7 +721,14 @@ opacity: 0.5;
     }
 
   #thesissection h1 {
-    display: none;
+    display: block;
+    font-size: 1.5rem;
+    font-weight: bold;
+    height: 56px;
+    width: 400px;
+    margin: 16px 0px 16px 16px;
+    text-align: center;
+    align-items: center;
   }
 
 
