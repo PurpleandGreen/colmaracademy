@@ -18,7 +18,7 @@ body {
 
 /* Header */
 
-#headercontainer{
+header{
   display: flex;
   align-items: center;
   align-content: center;
@@ -29,7 +29,7 @@ body {
   margin-left: 24px;
 }
 
-#headercontainer .headerlogo{
+header.headerlogo{
   height: 4rem;
   width: auto;
 }
@@ -39,13 +39,13 @@ img {
   width: auto;
 }
 
-#headercontainer .colmar {
+header .colmar {
   font-size: 2rem;
   font-weight: bold;
   width: auto;
 }
 
-#headercontainer .academy {
+header .academy {
   font-size: 2rem;
   opacity: .5;
   flex-grow: 1;
@@ -498,10 +498,11 @@ img {
 
 /* Footer */
 
-#footercontainer {
+footer {
 display: flex;
 align-items: center;
 align-content: center;
+justify-content: space-between;
 height: 64px;
 width: 1200px;
 margin-top: 7rem;
@@ -510,22 +511,33 @@ margin-left: 24px;
 opacity: 0.5;
 }
 
-#footercontainer span {
-  flex-grow: 1;
+footer span {
+  flex-direction: row;
 }
+ footer .socialmedia {
+   display: flex;
+   width: 150px;
+ }
+
+ footer .socialmedia a i {
+   margin-right: 5px;
+   margin-left: 5px;
+   text-decoration: none;
+   color: gray;
+ }
 
 
-#footercontainer .termspriv {
+footer .termspriv {
   display: flex;
   width: auto;
   padding-right: 0.5rem;
 }
 
-#footercontainer .termspriv li {
+footer .termspriv li {
   display: inline;
 }
 
-#footercontainer .termspriv li a{
+footer .termspriv li a{
   color: #212121;
   text-decoration: none;
   margin-left: 1rem;
@@ -546,23 +558,25 @@ opacity: 0.5;
 /* Media Queries for all sections start here*/
 
 @media only screen and (max-width: 480px) {
-   #headercontainer .headerlogo, .colmar, .academy, nav {
+   header .headerlogo, .colmar, .academy, nav {
       display: none;
     }
 
-    #headernavigation {
+    header #headernavigation {
       align-items: center;
       justify-content: space-between;
       height: 64px;
       width: 440px;
     }
 
-   #headercontainer #headernavigation a img{
+
+   header #headernavigation a img{
      align-items: center;
      visibility: show;
      height: 100%;
      width: 100%;
    }
+
    #learnsection {
      display: flex;
      flex-direction: column;
@@ -689,9 +703,10 @@ opacity: 0.5;
      visibility: visible;
      height: 536px;
      width: 480px;
+     text-decoration: none;
    }
 
-   #coursesmobile h1{
+   #coursesmobile h1 {
      display: block;
      font-size: 1.5rem;
      font-weight: bold;
@@ -700,34 +715,39 @@ opacity: 0.5;
      margin: 32px 0px 16px 16px;
      text-align: center;
      align-items: center;
+     text-decoration: none;
    }
 
-   #coursesmobile h3 {
+   #coursesmobile a span{
      display: block;
      align-items: center;
      font-size: 1.25rem;
      font-weight: bold;
      padding: 16px 0px 24px 16px;
+     color: #212121;
      background-color: lightgray;
      height: 56px;
      width: 400px;
      margin: 4px 16px;
+     text-decoration: none;
    }
 
-   #coursesmobile h3:hover {
+   #coursesmobile a span:hover {
      background-color: red;
+     text-decoration: none;
      box-shadow: 0 20x 4ox rgba(0, 0, 0, .5);
      transition: background-color 200ms ease-in;
    }
 
-   #coursesmobile h3:active {
+   #coursesmobile a span:active {
      background-color: green;
+     text-decoration: none;
      transition: background-color 0s linear;
    }
 
    #thesissection {
      display: flex;
-     margin-top: 2350px;
+     margin-top: 2500px;
      height:550px;
    }
 
@@ -759,16 +779,28 @@ opacity: 0.5;
     display: none;
   }
 
-  #footercontainer {
+  footer {
     display: flex;
-    margin-top: 350px;
+    position: absolute;
+    margin-top: 500px;
+    margin-right: 16px;
     align-items: flex-start;
+    line-height: 1.5;
+    width: 480px;
   }
+
+  footer span {
+    height: auto;
+    width: 200px;
+    flex-wrap: wrap;
+    margin-right: 40px;
+  }
+
 
 }
 
 @media only screen and (min-width: 480px) {
-   #headercontainer #headernavigation img {
+   header #headernavigation img {
      visibility: hidden;
     }
 
