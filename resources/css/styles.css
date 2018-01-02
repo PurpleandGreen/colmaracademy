@@ -130,13 +130,13 @@ header .academy {
 }
 
 #learnsection .startherebutton:hover {
-  background-color: red;
+  background-color: orange;
   box-shadow: 0 20x 4ox rgba(0, 0, 0, .5);
   transition: background-color 200ms ease-in;
 }
 
 #learnsection .startherebutton:active {
-  background-color: green;
+  background-color: red;
   transition: background-color 0s linear;
 }
 
@@ -718,7 +718,7 @@ footer .termspriv li a{
      text-decoration: none;
    }
 
-   #coursesmobile a span{
+   #coursesmobile a {
      display: block;
      align-items: center;
      font-size: 1.25rem;
@@ -732,15 +732,15 @@ footer .termspriv li a{
      text-decoration: none;
    }
 
-   #coursesmobile a span:hover {
-     background-color: red;
+   #coursesmobile a:hover {
+     background-color: orange;
      text-decoration: none;
      box-shadow: 0 20x 4ox rgba(0, 0, 0, .5);
      transition: background-color 200ms ease-in;
    }
 
-   #coursesmobile a span:active {
-     background-color: green;
+   #coursesmobile a:active {
+     background-color: red;
      text-decoration: none;
      transition: background-color 0s linear;
    }
